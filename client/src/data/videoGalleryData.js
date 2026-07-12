@@ -5,9 +5,9 @@
  * src/assets/storyImg/ so Vite can optimize and bundle them properly.
  */
 
-import vid1 from '../assets/storyVid/vid_1.mkv';
-import vid2 from '../assets/storyVid/vid_2.mkv';
-import vid3 from '../assets/storyVid/vid_3.mkv';
+import vid1 from '../assets/storyvid/vid_1.mkv';
+import vid2 from '../assets/storyvid/vid_2.mkv';
+import vid3 from '../assets/storyvid/vid_3.mkv';
 
 import thumb1 from '../assets/storyImg/Scene_1.png';
 import thumb2 from '../assets/storyImg/Scene_2.png';
