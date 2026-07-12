@@ -4,7 +4,7 @@ import axios from 'axios';
 import { testimonials as seedTestimonials } from '../data/data';
 
 /* ─── tiny helpers ───────────────────────────────────────────────── */
-const API = 'http://localhost:5000/api';
+const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
 
 const accentColors = ['#C084FC', '#F5A623', '#22D3EE', '#34D399', '#F472B6'];
 
