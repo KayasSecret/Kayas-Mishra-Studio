@@ -340,7 +340,7 @@ export default function Services() {
         >
           <StatBadge value="5+" label="Projects Shipped" accent="#C084FC" />
           <StatBadge value="4+" label="Happy Clients" accent="#F5A623" />
-          <StatBadge value="10+" label="Monnths Experience" accent="#22D3EE" />
+          <StatBadge value="10+" label="Months Experience" accent="#22D3EE" />
           <StatBadge value="100%" label="Client Satisfaction" accent="#34D399" />
         </motion.div>
 
