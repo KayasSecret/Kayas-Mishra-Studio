@@ -1,5 +1,7 @@
-const API_BASE = 'http://localhost:5000/api/payment';
-
+const API_BASE =
+  import.meta.env.MODE === "development"
+    ? "http://localhost:5000/api/payment"
+    : "https://kayas-mishra-studio.onrender.com/api/payment";
 /**
  * Calls backend to create a Razorpay order.
  * @param {Object} paymentData - { amount, currency, bookName, customerName, email, phone }
