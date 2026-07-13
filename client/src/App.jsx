@@ -15,6 +15,7 @@ import Contact from './sections/Contact';
 import Footer from './sections/Footer';
 import Chatbot from './sections/Chatbot';
 import FantasyStore from './pages/FantasyStore';
+import ScrollToTop from "./components/ScrollToTop";
 
 // Global Styles
 import './styles/global.css';
@@ -74,6 +75,7 @@ function Portfolio() {
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Portfolio />} />
         <Route path="/fantasy-store" element={<FantasyStore />} />

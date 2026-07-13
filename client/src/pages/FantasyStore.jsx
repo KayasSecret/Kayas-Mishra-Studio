@@ -228,7 +228,7 @@ function Book3D({ onBuyClick }) {
           </div>
 
           <div style={{ color: 'rgba(255,255,255,0.5)', fontSize: '0.6rem', marginTop: '8px', letterSpacing: '0.15em', textTransform: 'uppercase' }}>
-           Writer - Kayas Mishra
+            Writer - Kayas Mishra
           </div>
 
           {/* Bottom genre tag */}
@@ -375,7 +375,7 @@ function PaymentModal({ onClose }) {
         setErrorMessage(response.error.description || 'Payment transaction failed.');
         setStep('error');
       });
-      
+
       rzp.open();
 
     } catch (err) {
@@ -513,33 +513,33 @@ function PaymentModal({ onClose }) {
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.2rem', marginBottom: '1.25rem' }}>
               <div>
-                <input 
-                  style={inputStyle(errors.name)} 
-                  placeholder="Full Name" 
+                <input
+                  style={inputStyle(errors.name)}
+                  placeholder="Full Name"
                   value={form.name}
-                  onChange={e => setForm(f => ({ ...f, name: e.target.value }))} 
+                  onChange={e => setForm(f => ({ ...f, name: e.target.value }))}
                 />
                 {errors.name && <div style={{ color: '#EF4444', fontSize: '0.75rem', marginBottom: '0.5rem' }}>{errors.name}</div>}
               </div>
 
               <div>
-                <input 
-                  style={inputStyle(errors.email)} 
-                  placeholder="Email Address" 
-                  type="email" 
+                <input
+                  style={inputStyle(errors.email)}
+                  placeholder="Email Address"
+                  type="email"
                   value={form.email}
-                  onChange={e => setForm(f => ({ ...f, email: e.target.value }))} 
+                  onChange={e => setForm(f => ({ ...f, email: e.target.value }))}
                 />
                 {errors.email && <div style={{ color: '#EF4444', fontSize: '0.75rem', marginBottom: '0.5rem' }}>{errors.email}</div>}
               </div>
 
               <div>
-                <input 
-                  style={inputStyle(errors.phone)} 
-                  placeholder="Phone Number" 
-                  type="tel" 
+                <input
+                  style={inputStyle(errors.phone)}
+                  placeholder="Phone Number"
+                  type="tel"
                   value={form.phone}
-                  onChange={e => setForm(f => ({ ...f, phone: e.target.value }))} 
+                  onChange={e => setForm(f => ({ ...f, phone: e.target.value }))}
                 />
                 {errors.phone && <div style={{ color: '#EF4444', fontSize: '0.75rem', marginBottom: '0.5rem' }}>{errors.phone}</div>}
               </div>
@@ -993,12 +993,49 @@ export default function FantasyStore() {
             For just ₹29, enter a world that will haunt your dreams and ignite your imagination.
           </p>
           <button
-            style={{ ...btnGold, fontSize: '1.05rem', padding: '1rem 2.5rem', margin: '0 auto' }}
+            style={{
+              ...btnGold,
+              width: "100%",
+              maxWidth: window.innerWidth <= 768 ? "320px" : "420px",
+              padding: window.innerWidth <= 768 ? "14px 16px" : "16px 40px",
+              fontSize: window.innerWidth <= 768 ? "0.9rem" : "1.05rem",
+              margin: "0 auto",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              gap: "8px",
+              boxSizing: "border-box",
+            }}
             onClick={() => setPaymentOpen(true)}
-            onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-4px) scale(1.03)'; e.currentTarget.style.boxShadow = '0 18px 45px rgba(217,119,6,0.6)'; }}
-            onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = '0 6px 20px rgba(217,119,6,0.4)'; }}
+            onMouseEnter={(e) => {
+              if (window.innerWidth > 768) {
+                e.currentTarget.style.transform = "translateY(-4px) scale(1.03)";
+                e.currentTarget.style.boxShadow = "0 18px 45px rgba(217,119,6,0.6)";
+              }
+            }}
+            onMouseLeave={(e) => {
+              if (window.innerWidth > 768) {
+                e.currentTarget.style.transform = "";
+                e.currentTarget.style.boxShadow = "0 6px 20px rgba(217,119,6,0.4)";
+              }
+            }}
           >
-            <FaShoppingCart /> Get The Shattered Realm — ₹29
+            <FaShoppingCart
+              style={{
+                flexShrink: 0,
+              }}
+            />
+
+            <span
+              style={{
+                overflow: "hidden",
+                textOverflow: "ellipsis",
+                whiteSpace: "nowrap",
+                flex: 1,
+              }}
+            >
+              Get Dronznido Book — ₹29
+            </span>
           </button>
         </motion.div>
       </div>
