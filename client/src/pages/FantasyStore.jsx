@@ -318,7 +318,7 @@ function PaymentModal({ onClose }) {
 
       // 2. Call backend to create Razorpay Order
       const orderData = await createOrder({
-        amount: 5,
+        amount: 29,
         bookName: "Dronznido: The Hidden Kingdom of Wonders",
         customerName: form.name,
         email: form.email,
