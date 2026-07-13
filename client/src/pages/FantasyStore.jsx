@@ -30,7 +30,7 @@ const bookData = {
   title: 'DRONZNIDO: The Hidden Kingdom of Wonders',
   subtitle: '(Part 1)',
   genre: 'Epic Fantasy · Magic · Adventure · Another World',
-  price: 5,
+  price: 49,
   rating: 4.9,
   reviewCount: 12,
   pages: 102,
@@ -318,7 +318,7 @@ function PaymentModal({ onClose }) {
 
       // 2. Call backend to create Razorpay Order
       const orderData = await createOrder({
-        amount: 29,
+        amount: 49,
         bookName: "Dronznido: The Hidden Kingdom of Wonders",
         customerName: form.name,
         email: form.email,
@@ -505,7 +505,7 @@ function PaymentModal({ onClose }) {
               <div style={{ color: '#F59E0B', fontSize: '0.7rem', fontWeight: '800', letterSpacing: '0.2em', textTransform: 'uppercase', marginBottom: '0.5rem' }}>Secure Checkout</div>
               <div style={{ color: '#E2E8F0', fontSize: '1.25rem', fontWeight: '800' }}>Dronznido E-Book</div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginTop: '0.5rem' }}>
-                <span style={{ color: '#10B981', fontSize: '1.4rem', fontWeight: '900' }}>₹29</span>
+                <span style={{ color: '#10B981', fontSize: '1.4rem', fontWeight: '900' }}>₹49</span>
                 <span style={{ color: 'rgba(255,255,255,0.4)', fontSize: '0.8rem', textDecoration: 'line-through' }}>₹199</span>
                 <span style={{ background: 'rgba(16,185,129,0.2)', color: '#34D399', padding: '2px 8px', borderRadius: '99px', fontSize: '0.72rem', fontWeight: '700' }}>85% OFF</span>
               </div>
@@ -559,7 +559,7 @@ function PaymentModal({ onClose }) {
               onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 12px 32px rgba(124,58,237,0.6)'; }}
               onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = '0 8px 24px rgba(124,58,237,0.4)'; }}
             >
-              <FaShoppingCart /> Pay ₹29 Securely
+              <FaShoppingCart /> Pay ₹49 Securely
             </button>
 
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', marginTop: '1.25rem', color: 'rgba(255,255,255,0.35)', fontSize: '0.75rem' }}>
@@ -728,7 +728,7 @@ export default function FantasyStore() {
             {/* Price + CTA */}
             <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
               <div>
-                <div style={{ color: '#10B981', fontSize: '2.5rem', fontWeight: '900', lineHeight: 1 }}>₹29</div>
+                <div style={{ color: '#10B981', fontSize: '2.5rem', fontWeight: '900', lineHeight: 1 }}>₹49</div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginTop: '4px' }}>
                   <span style={{ color: 'rgba(255,255,255,0.35)', fontSize: '0.9rem', textDecoration: 'line-through' }}>₹199</span>
                   <span style={{ background: 'rgba(16,185,129,0.2)', color: '#34D399', padding: '2px 8px', borderRadius: '99px', fontSize: '0.72rem', fontWeight: '800' }}>85% OFF · Limited</span>
@@ -744,7 +744,7 @@ export default function FantasyStore() {
                 onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-3px)'; e.currentTarget.style.boxShadow = '0 12px 30px rgba(217,119,6,0.6)'; }}
                 onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = '0 6px 20px rgba(217,119,6,0.4)'; }}
               >
-                <FaShoppingCart /> Buy Now — ₹29
+                <FaShoppingCart /> Buy Now — ₹49
               </button>
               <button
                 style={{ ...btnGlass, color: wishlisted ? '#F59E0B' : '#E2E8F0', borderColor: wishlisted ? 'rgba(245,166,35,0.4)' : 'rgba(255,255,255,0.15)' }}
@@ -990,7 +990,7 @@ export default function FantasyStore() {
             Begin Your Journey
           </h2>
           <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '1rem', marginBottom: '2rem', maxWidth: '480px', margin: '0 auto 2rem' }}>
-            For just ₹29, enter a world that will haunt your dreams and ignite your imagination.
+            For just ₹49, enter a world that will haunt your dreams and ignite your imagination.
           </p>
           <button
             style={{
@@ -1034,7 +1034,7 @@ export default function FantasyStore() {
                 flex: 1,
               }}
             >
-              Get Dronznido Book — ₹29
+              Get Dronznido Book — ₹49
             </span>
           </button>
         </motion.div>
