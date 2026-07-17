@@ -324,28 +324,10 @@ export const testimonials = [
     text: "Kayas stands out as an exceptional software engineer who understands design as deeply as he understands system architecture. He delivers clean, robust code and has a rare eye for pixel-perfect detail. Every sprint he set a new bar for what our team believed was possible.",
   },
   {
-    name: "Sarah Jenkins",
-    role: "Co-Founder",
-    company: "EcoSphere",
-    text: "Working with Kayas on our carbon-tracking platform was a transformative experience. His backend speed improvements and clean API architecture enabled our frontend team to build and iterate twice as fast. He is the kind of engineer you want on every critical project.",
-  },
-  {
     name: "Rohan Verma",
     role: "Lead UI/UX Designer",
     company: "Pixel Craft",
     text: "In my entire career I have rarely seen a developer who bridges design and engineering so seamlessly. Kayas would take a Figma screen and ship it with sub-pixel precision — and then go beyond with thoughtful micro-interactions we had not even specified. Truly gifted.",
-  },
-  {
-    name: "Priya Nair",
-    role: "CTO",
-    company: "LaunchStack",
-    text: "We brought Kayas in to rescue a struggling Node.js monolith that was costing us customers. Within three weeks he had refactored the core services, slashed API response times by 65%, and documented everything clearly. Calm under pressure, fast, and brilliant.",
-  },
-  {
-    name: "James Harrington",
-    role: "Founder",
-    company: "Freelance Client",
-    text: "I hired Kayas to build my personal brand website from scratch and he delivered something that genuinely wowed every visitor. The animations, the performance score, the attention to SEO — everything was top-tier. He is my go-to developer for every future project.",
   },
 ];
 

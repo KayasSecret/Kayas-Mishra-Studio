@@ -24,7 +24,7 @@ export const ALIGNMENT_COLORS = {
 export const characters = [
   {
     id: 'skywooder',
-    name: 'God Skywooder',
+    name: 'God Sky Wooder',
     category: 'gods',
     role: 'God of Goodness',
     raceType: 'Supreme Divine Being',
@@ -52,7 +52,7 @@ export const characters = [
 
   {
     id: 'gimestrini',
-    name: 'Goddess Gimestrini',
+    name: 'Goddess Gimestriny',
     category: 'gods',
     role: 'Goddess of Magic',
     raceType: 'Supreme Divine Being',
@@ -80,7 +80,7 @@ export const characters = [
 
   {
     id: 'drathwedork',
-    name: 'Drathwedork',
+    name: 'Drathvadork',
     category: 'villains',
     role: 'Dark God / Supreme Villain',
     raceType: 'Dark God',
@@ -109,7 +109,7 @@ export const characters = [
 
   {
     id: 'sefwang',
-    name: 'Master Sefwang Kasagi',
+    name: 'Master Safwang Kasaagi',
     category: 'mentors',
     role: 'Legendary Master & Guardian',
     raceType: 'Human — Ancient Master',
@@ -279,7 +279,7 @@ export const characters = [
 
   {
     id: 'osrona',
-    name: 'King Sahoonj Krosa',
+    name: 'King Sahoonaj Krosa',
     category: 'kings',
     role: 'Cursed Monster → Restored King',
     raceType: 'Human King — Formerly Cursed',
