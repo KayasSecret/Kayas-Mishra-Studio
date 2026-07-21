@@ -506,8 +506,8 @@ function PaymentModal({ onClose }) {
               <div style={{ color: '#E2E8F0', fontSize: '1.25rem', fontWeight: '800' }}>Dronznido E-Book</div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginTop: '0.5rem' }}>
                 <span style={{ color: '#10B981', fontSize: '1.4rem', fontWeight: '900' }}>₹49</span>
-                <span style={{ color: 'rgba(255,255,255,0.4)', fontSize: '0.8rem', textDecoration: 'line-through' }}>₹199</span>
-                <span style={{ background: 'rgba(16,185,129,0.2)', color: '#34D399', padding: '2px 8px', borderRadius: '99px', fontSize: '0.72rem', fontWeight: '700' }}>85% OFF</span>
+                <span style={{ color: 'rgba(255,255,255,0.4)', fontSize: '0.8rem', textDecoration: 'line-through' }}>₹249</span>
+                <span style={{ background: 'rgba(16,185,129,0.2)', color: '#34D399', padding: '2px 8px', borderRadius: '99px', fontSize: '0.72rem', fontWeight: '700' }}>80% OFF</span>
               </div>
             </div>
 
@@ -730,8 +730,8 @@ export default function FantasyStore() {
               <div>
                 <div style={{ color: '#10B981', fontSize: '2.5rem', fontWeight: '900', lineHeight: 1 }}>₹49</div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginTop: '4px' }}>
-                  <span style={{ color: 'rgba(255,255,255,0.35)', fontSize: '0.9rem', textDecoration: 'line-through' }}>₹199</span>
-                  <span style={{ background: 'rgba(16,185,129,0.2)', color: '#34D399', padding: '2px 8px', borderRadius: '99px', fontSize: '0.72rem', fontWeight: '800' }}>85% OFF · Limited</span>
+                  <span style={{ color: 'rgba(255,255,255,0.35)', fontSize: '0.9rem', textDecoration: 'line-through' }}>₹249</span>
+                  <span style={{ background: 'rgba(16,185,129,0.2)', color: '#34D399', padding: '2px 8px', borderRadius: '99px', fontSize: '0.72rem', fontWeight: '800' }}>80% OFF · Limited</span>
                 </div>
               </div>
             </div>
