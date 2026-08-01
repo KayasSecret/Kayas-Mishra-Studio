@@ -5,7 +5,7 @@ import { FaYoutube, FaPlay } from 'react-icons/fa';
 import posterImg from '../../assets/storyImg/Scene_1.png';
 
 const VideoGallery = memo(function VideoGallery() {
-  const channelUrl = "https://www.youtube.com/@Kayasverse/videos";
+  const channelUrl = "https://youtu.be/Llit4OXYrO8?si=nNx_0e_3J2spn6Zm";
 
   return (
     <div style={{ position: 'relative' }}>
