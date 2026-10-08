@@ -90,7 +90,7 @@ export const projects = [
     learnings: "Strengthened my expertise in scalable application architecture, healthcare workflow design, REST API development, secure authentication, responsive UI development, and modular project organization for enterprise-level applications.",
     image: oncoSphereImg,
     githubUrl: "https://github.com/KayasSecret/Onco-Sphere--AI-Powered-Cancer-Institute-Management-Clinical-Research-Platform.",
-    liveUrl: "https://github.com/KayasSecret",
+    liveUrl: "https://onco-sphere-ai-powered-cancer-insti.vercel.app",
     featured: true,
     year: "2025",
   },
